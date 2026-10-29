@@ -41,7 +41,7 @@ This task extends Task 1 by adding an SSD1306 I²C OLED display to monitor the L
 | LED 2 PWM | GPIO 18 |
 | OLED SDA | GPIO 21 |
 | OLED SCL | GPIO 22 |
-| OLED VCC | 3V3 (if supported by module) |
+| OLED VCC | 3V3 |
 | Common Ground | GND |
 
 ## Wiring Details
