@@ -13,12 +13,12 @@ void loop()
     for (int value = 0; value <= 255; value++)
     {
         dacWrite(DAC_PIN, value);
-        delay(5);
+        delay(50);
     }
 
     for (int value = 255; value >= 0; value--)
     {
         dacWrite(DAC_PIN, value);
-        delay(5);
+        delay(50);
     }
 }
